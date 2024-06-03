@@ -8,13 +8,13 @@ body{
 
 @font-face{
     font-family: 'Mon';
-    src: url(../font/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 @font-face{
     font-family: 'Mon';
-    src: url(../font/Montserrat-Medium.ttf);
+    src: url(../fonts/Montserrat-Medium.ttf);
     font-weight: 600;
     font-style: normal;
 }
@@ -32,19 +32,19 @@ body{
 }
 @font-face{
     font-family: 'Mer';
-    src: url(../font/Merriweather-Black.ttf);
+    src: url(../fonts/Merriweather-Black.ttf);
     font-weight: 900;
     font-style: normal;
 }
 @font-face{
     font-family: 'Mer';
-    src: url(../font/Merriweather-Bold.ttf);
+    src: url(../fonts/Merriweather-Bold.ttf);
     font-weight:700;
     font-style: normal;
 }
 @font-face{
     font-family: 'Sed';
-    src: url(../font/SedgwickAve-Regular.ttf);
+    src: url(../fonts/SedgwickAve-Regular.ttf);
     font-weight:500;
     font-style: normal;
 }
@@ -354,4 +354,156 @@ body{
     background-size: contain;
     position: absolute;
     transform: translate(200px,35px);
+}
+
+
+.Advantages{
+    background: url(../img/Mask\ group\ \(1\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1110px;
+
+}
+.Advantages .container{
+    padding-top: 400px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Advantages .container .En{
+    font-family: 'Mer';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Advantages .container .the{
+    font-family: 'Lat';
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 5px;
+    margin-bottom: 120px;
+    text-align: center;
+
+}
+.Advantages .container .play{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background-color: #F87932;
+    border:  1px solid #F87932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.Advantages .container .play:hover{
+    border: 5px solid #FFFFFF;
+    transition: .3s;
+}
+.Advantages .container .play svg{
+    transform: rotate(-45deg);
+    
+}
+.Advantages .container .romb{
+    width: 220px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 5px solid #39BFA7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: relative;
+}
+.Advantages .container .romb .mini{
+    width: 75px;
+    height: 75px;
+    background-color: #39BFA7;
+    border: 3px solid #2A0606;
+    border-radius: 5px;
+
+}
+.Advantages .container .romb .bigtxt{
+    transform: rotate(-45deg);
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Advantages .container .romb .mini .txt{
+    transform: rotate(-45deg);
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+.Advantages .container .rombs{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 1020px;
+}
+.Advantages .container .rombs1{
+    display: flex;
+    
+}
+.Advantages .container .rombs2{
+    display: flex;
+    
+}
+.Advantages .container .romb1 .mini1{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Advantages .container .romb2{
+    margin-left: 105px;
+}
+.Advantages .container .romb2 .mini2{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Advantages .container .romb3{
+    margin-right: 105px;
+}
+.Advantages .container .romb3 .mini3{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Advantages .container .romb4 .mini4{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Advantages{
+    margin-bottom: 200px;
 }
