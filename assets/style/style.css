@@ -20,13 +20,13 @@ body{
 }
 @font-face{
     font-family: 'Lat';
-    src: url(../font/Lato-Bold.ttf);
+    src: url(../fonts/Lato-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 @font-face{
     font-family: 'Lat';
-    src: url(../font/Lato-SemiBold.ttf);
+    src: url(../fonts/Lato-SemiBold.ttf);
     font-weight: 400;
     font-style: normal;
 }
@@ -269,4 +269,89 @@ body{
     transform: translate(90px,310px);
     transition: .5s;
     
+}
+
+
+.presents{
+    margin-bottom: 50px;
+}
+.presents .container{
+    display: flex;
+    position: relative;
+}
+.presents .container .block1 .pictures{
+    width: 770px;
+    height: 638px;
+    background: url(../img/Route.png) no-repeat;
+    padding-top: 170px;
+    position: absolute;
+    transform: translate(-170px,-110px);
+    z-index: -1;
+    
+}
+.presents .container .block1  .relax{
+    font-size: 'Lat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+.presents .container .block1  .UA{
+    font-family: 'Mer';
+    font-weight: 900;
+    font-size: 60px;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.presents .container .block1  .welcome{
+    font-family: 'Lat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 5px;
+    margin-bottom: 170px;
+}
+.presents .container .block1 .book{
+    width: 213px;
+    height: 62px;
+    border: 1px solid #222222;
+    background-color: white;
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+    transition: .5s;
+}
+.presents .container .block1 .book:hover{
+    color: #FFFFFF;
+    background-color: #F87932;
+    border: 1px solid white;
+    transition: .3s;
+}
+.presents .container .block2 .frst{
+    background: url(../img/Polygon\ 27.png) no-repeat;
+    width: 331px;
+    height: 332px;
+    background-size: contain;
+    margin-top: 130px;
+   
+
+    
+}
+.presents .container .block2{
+    display: flex;
+    position: relative;
+}
+.presents .container .block2 .scnd{
+    background: url(../img/Subtract.png) no-repeat;
+    width: 365px;
+    height: 456px;
+    background-size: contain;
+    position: absolute;
+    transform: translate(200px,35px);
 }
