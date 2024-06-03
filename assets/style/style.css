@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'Mon';
+    src: url(../font/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Mon';
+    src: url(../font/Montserrat-Medium.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Lat';
+    src: url(../font/Lato-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Lat';
+    src: url(../font/Lato-SemiBold.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Mer';
+    src: url(../font/Merriweather-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Mer';
+    src: url(../font/Merriweather-Bold.ttf);
+    font-weight:700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Sed';
+    src: url(../font/SedgwickAve-Regular.ttf);
+    font-weight:500;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
