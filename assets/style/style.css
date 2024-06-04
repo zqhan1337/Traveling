@@ -1442,3 +1442,230 @@ body{
         font-size: 18px !important;
     }
 }
+
+
+@media(max-width:480px){
+    .container{
+        width: 300px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .bg{
+        height: 80vh !important;
+    }
+   
+    .bg .container .navigation a{
+        font-size: 12px !important;
+        width: 140px !important;
+        height: 30px !important; 
+        padding-top: 7px !important;
+        
+    }
+    .bg .container .glav .block1 .trav{
+        font-size: 38px !important;
+        margin-bottom: 30px !important;
+    }
+    .bg .container .glav .block1 .book{
+        font-size: 8px !important;
+        width: 110px !important;
+        height: 28px !important;
+        word-spacing: 0px !important;
+        padding: 0 !important;
+    }
+    .bg .container .glav .block2 .r2{
+        transform: translate(-350px, 250px) !important;
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .bg .container .glav .block2 .r3{
+        transform: translate(-290px, 180px) !important;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .bg .container .glav .block2 .r4{
+        transform: translate(-210px, 230px) !important;
+    }
+    .bg .container .glav .block2 .r5{
+        width: 150px !important;
+        height: 150px !important;
+        transform: translate(-60px, 160px) !important;
+    }
+    .bg .container .glav .block2 .r6{
+        transform: translate(25px, 250px) !important;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .presents .container .pictures{
+        transform: translate(-10px, -110px) !important;
+    }
+    .presents .container .relax{
+        font-size: 14px !important;
+    }
+    .presents .container .UA{
+        font-size: 38px !important;
+    }
+    .presents .container .welcome{
+        font-size: 14px !important;
+        margin-bottom: 150px !important;
+    }
+    .presents .container .book{
+        font-size: 10px !important;
+        width: 140px !important;
+        height: 31px !important;
+    }
+    .presents .container .block2 .frst{
+        transform: translate(-190px, -330px) !important;
+    }
+    .presents .container .block2 .scnd{
+        transform: translate(69px, -120px) !important;
+    }
+    .Advantages{
+        height: 900px !important;
+    }
+    .Advantages .container .En{
+        font-size: 30px !important;
+    }
+    .Advantages .container .the{
+        font-size: 12px !important;
+        margin-bottom: 40px !important;
+    }
+    .Advantages .container .rombs1{
+        margin-bottom: 40px !important;
+    }
+    .Advantages .container .rombs .romb2{
+        margin: 0 !important;
+        margin-left: 40px !important;
+    }
+    .Advantages .container .rombs .romb3{
+        margin: 0 !important;
+        margin-right: 40px !important;
+    }
+    .Advantages .container .rombs .romb{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .Advantages .container .rombs .romb .mini{
+        margin-left: 60px !important;
+        margin-top: 60px !important;
+    }
+    .Advantages .container .rombs .romb .bigtxt{
+        font-size: 20px !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+    }
+    .Advantages .container .rombs{
+        margin-top: 730px !important;
+    }
+    .Advantages .container{
+        padding-top: 200px !important;
+    }
+    .Advantages{
+        margin-bottom: 50px !important;
+    }
+
+    .blog .container .Blog{
+        font-size: 38px !important;
+    }
+    .blog .container .the{
+        font-size: 18px !important;
+    }
+    .blog .container .Photos{
+        font-size: 12px !important;
+    }
+    .blog .container .groupphoto .block1{
+        grid-gap:20px !important
+    }
+    .blog .container .groupphoto .block1{
+        grid-template-columns: 130px 130px !important;
+        grid-template-rows:130px 130px !important ;
+    }
+    .blog .container .groupphoto .block1 .ph1{
+    height: 290px !important;
+    width: 140px !important;
+    }
+    .blog .container .groupphoto .block1 .ph2{
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .blog .container .groupphoto .block1 .ph3{
+        width: 140px !important;
+        height: 140px !important;
+    }
+    
+
+
+
+    .blog .container .groupphoto .block2{
+        grid-gap:20px !important
+    }
+    .blog .container .groupphoto .block2{
+        grid-template-columns: 130px 130px !important;
+        grid-template-rows:130px 130px !important ;
+    }
+    .blog .container .groupphoto .block2 .ph4{
+    width: 290px !important;
+    height: 140px !important;
+    }
+    .blog .container .groupphoto .block2 .ph5{
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .blog .container .groupphoto .block2 .ph6{
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .blog .container .GO{
+        font-size: 10px !important;
+        height: 40px !important;
+        width: 140px !important;
+    }
+
+    .Schedule .container .tourist{
+        font-size: 38px !important;
+        text-align: center !important;
+    }
+    .Schedule .container .wel{
+        font-size: 12px !important;
+    }
+    .Schedule .container .points{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .Schedule .container .points .up{
+        font-size: 40px !important;
+    }
+    .Schedule .container .points .dots .nmb{
+        font-size: 40px !important;
+    }
+    .Schedule .container .points .dots .mounth{
+        font-size: 14px !important;
+    }
+    .Schedule .container .points .dots .name{
+        font-size: 16px !important;
+    }
+    .Schedule .container .BOOK{
+        font-size: 14px !important;
+        width: 120px !important; 
+    }
+    .form{
+        padding-top: 50px !important;
+    }
+    .form .container .join{
+        font-size: 38px !important;
+    }
+    .form .container .call{
+        font-size: 16px !important;
+    }
+    .form .container label{
+        font-size: 14px !important;
+    }
+    .form .container .Get{
+        font-size: 14px !important;
+        width: 120px !important;
+    }
+
+    .footer .container p{
+        font-size: 14px !important;
+    }
+}
