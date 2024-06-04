@@ -675,3 +675,105 @@ body{
     margin-bottom: 70px;
 }
 
+.Schedule{
+    background: url(../img/photo_2024-06-03_22-43-47.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+
+}
+
+.Schedule .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+}
+
+.Schedule .container .tourist{
+    font-family: 'Mer';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Schedule .container .UK{
+    width: 157px;
+    height: 23px;
+    background: url(../img/Group\ 3\ \(1\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.Schedule .container .wel{
+    font-family: 'Lat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Schedule .container .points{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Schedule .container .points .up{
+    font-family: 'Sed';
+    font-size: 60px;
+    font-weight: 400;
+    color: #39BFA7;
+}
+.Schedule .container .points .dota{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Schedule .container .points .dota .nmb{
+    font-family: 'Sed';
+    font-size: 70px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    margin-right: 10px;
+}
+.Schedule .container .points .dota .data .mounth{
+    font-family: 'Sed';
+    font-weight: 400;
+    font-size: 18px;
+    color: #969696;
+    margin: 0;
+}
+.Schedule .container .points .dota .data .name{
+    font-family: 'Mer';
+    font-weight: 900;
+    font-size: 30px;
+    color: #DDDDDD;
+    margin: 0;
+    
+}
+.Schedule .container .BOOK{
+    font-family: 'Lat';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    padding-left: 10px;
+    width: 213px;
+    height: 62px;
+    border: none;
+    background-color: #F87932;
+    transition: .5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Schedule .container .BOOK:hover{
+    background-color: #FFFFFF;
+    color: #F87932;
+    transition: .3s;
+}
