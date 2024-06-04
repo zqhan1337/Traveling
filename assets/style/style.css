@@ -1325,3 +1325,120 @@ body{
         margin-right: 35px !important;
     }
 }
+
+@media(max-width:576px){
+    .container{
+        width: 480px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bg .container .glav .block2 .r1{
+        transform: translate(-530px, 380px) !important;
+
+    }
+    .bg .container .glav .block2 .r2{
+        transform: translate(-420px, 320px) !important;
+    }
+    .bg .container .glav .block2 .r3{
+        transform: translate(-345px, 360px) !important;
+    }
+    .bg .container .glav .block2 .r4{
+        transform: translate(-120px, 280px) !important;
+    }
+    .bg .container .glav .block2 .r5{
+        transform: translate(10px, 400px) !important;
+    }
+    .presents .container .welcome{
+        margin-bottom: 120px !important;
+    }
+    .presents .container .block2 .frst{
+       height: 150px !important;
+       width: 150px !important;
+       transform: translate(-300px, -350px) !important;
+    }
+    .presents .container .block2 .scnd{
+        transform: translate(100px, -150px);
+    }
+    .Advantages .container .rombs{
+        margin-top: 1010px !important;
+        
+    }
+    .Advantages .container .rombs .romb{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .Advantages .container .rombs .romb .txt{
+        font-size: 14px !important;
+    }
+    .Advantages .container .rombs .mini{
+        width: 35px !important;
+        height: 35px !important;
+        margin-left: 30px !important;
+        margin-top: 30px !important;
+    }
+    .Advantages{
+        margin-bottom: 250px !important;
+    }
+    .blog .container .Blog{
+        margin: 0 !important;
+    }
+    .blog .container .groupphoto .block1{
+        grid-template-columns: 150px 150px !important;
+        grid-template-rows: 150px 150px !important;
+        justify-content: center !important;
+        grid-gap:20px !important;
+    }
+    .blog .container .groupphoto .block1 .ph1{
+        grid-column-start: 2 !important;
+        grid-column-end: 3 !important;
+        width: 150px !important;
+        height: 320px !important;
+        
+    }
+    .blog .container .groupphoto .block1 .ph2{
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .blog .container .groupphoto .block1 .ph3{
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .blog .container .groupphoto .block2{
+        grid-template-columns: 150px 150px !important;
+        grid-template-rows: 150px 150px !important;
+        justify-content: center !important;
+        grid-gap:20px !important;
+        margin-right: 10px !important;
+    }
+    .blog .container .groupphoto .block2 .ph4{
+        grid-row-start: 2 !important;
+        grid-row-end: 3 !important;
+        width: 320px !important;
+        height: 150px !important;
+    }
+    .blog .container .groupphoto .block2 .ph5{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .blog .container .groupphoto .block2 .ph6{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .Schedule{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        display: flex;
+       
+    }
+    .Schedule .container{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .Schedule .container .points .name{
+        font-size: 18px !important;
+    }
+}
