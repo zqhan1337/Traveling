@@ -1106,3 +1106,222 @@ body{
         margin-top: 950px !important;
     }
 }
+
+
+@media(max-width:766px){
+    .container{
+        width: 576px;
+    }
+    .bg .container .skrut{
+        display: none;
+    }
+    .bg .container .navigation{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: center;
+    }
+    .bg .container .navigation a{
+        width: 160px;
+        margin-top: 10px !important;
+        border-radius: 8px !important;
+        padding: 5px !important;
+        padding-top: 18px !important;
+        font-size: 18px;
+        
+    }
+    
+    .bg .container .phone{
+        display: block;
+        position: absolute;
+        transform: translate(10px, 10px);
+       
+    }
+    .bg .container .glav{
+        margin-top: 50px !important;
+    }
+    .bg .container .glav .block1 .trav{
+        font-size: 65px !important;
+    }
+    .bg .container .glav .block1 .book{
+        font-size: 18px !important;
+        height: 45px !important;
+    }
+    .bg .container .glav .block2 .r1{
+        transform: translate(-505px,400px) !important;
+    }
+    .bg .container .glav .block2 .r2{
+        transform: translate(-400px,300px) !important;
+    }
+    .bg .container .glav .block2 .r3{
+        transform: translate(-300px,350px) !important;
+    }
+    .bg .container .glav .block2 .r4{
+        transform: translate(-60px,250px) !important;
+    }
+    .bg .container .glav .block2 .r5{
+        transform: translate(60px,400px) !important;
+        width: 200px !important;
+        height: 200px !important;
+    }
+    
+    .presents .relax{
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+    .presents .UA{
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+    .presents .welcome{
+        font-size: 18px !important;
+        text-align: center !important;
+        margin-bottom: 190px !important;
+    }
+    .presents .pictures{
+        background: url(../img/photo_2024-06-04_14-25-23.jpg) no-repeat !important;
+        background-size: contain !important;
+        transform: translate(60px,-120px) !important;
+
+    }
+    .presents .container .block2 .frst{
+        transform: translate(-300px,-400px) !important;
+    }
+    .presents .container .block2 .scnd{
+        transform: translate(200px,-150px);
+    } 
+    .Advantages .container .En{
+        font-size: 40px !important;
+    }
+    .Advantages .container .the{
+        font-size: 18px !important;
+    }
+    .Advantages .container .play{
+        width: 80px !important;
+        height: 80px !important; 
+    }
+    .Advantages .container .rombs{
+        margin-top: 1070px !important;
+    }
+    .Advantages .container .rombs .romb{
+        width: 180px !important;
+        height: 180px !important;
+    }
+    .Advantages .container .rombs .romb .txt{
+        font-size: 16px !important;
+    }
+    .Advantages .container .rombs .romb .bigtxt{
+        font-size: 30px !important;
+        margin-left: 23px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .Advantages .container .rombs .mini{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .blog .container .Blog{
+        font-size: 40px !important;
+    }
+    .blog .container .the{
+        font-size: 28px !important;
+    }
+    .blog .container .Photos{
+        font-size: 14px !important;
+    }
+    .blog .container .groupphoto{
+        width: 95% !important;
+    }
+    .blog .container .groupphoto .block1{
+        grid-gap: 0px !important; 
+        
+    }
+    .blog .container .groupphoto .block1 .ph1{
+        width: 250px !important;
+        height: 530px !important;
+    }
+    .blog .container .groupphoto .block1 .ph2{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .blog .container .groupphoto .block1 .ph3{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .blog .container .groupphoto .block2{
+        grid-gap: 0px !important; 
+        
+    }
+    .blog .container .groupphoto .block2 .ph4{
+        width: 530px !important; 
+        height: 250px !important;
+    }
+    .blog .container .groupphoto .block2 .ph5{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .blog .container .groupphoto .block2 .ph6{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .blog .container .groupphoto .text{
+        font-size: 18px !important;
+    }
+    .blog .container .groupphoto .arrow{
+        font-size: 18px !important;
+    }
+    .blog .container .GO{
+        font-size: 18px !important;
+        height: 45px !important;
+    }
+    .Schedule .container .tourist{
+        font-size: 40px !important;
+    }
+    .Schedule .container .wel{
+        font-size: 14px !important;
+    }
+    .Schedule .container .up{
+        font-size: 40px !important;
+    }
+    .Schedule .container .nmb{
+        font-size: 50px !important;
+    }
+    .Schedule .container .mounth{
+        font-size: 16px !important;
+    }
+    .Schedule .container .name{
+        font-size: 24px !important;
+    }
+    .Schedule .container .BOOK{
+        font-size: 18px !important;
+        height: 45px !important; 
+    }
+    .form .container .join{
+        font-size: 40px !important;
+    }
+    .form .container .call{
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+    }
+    .form .container .Get{
+            font-size: 18px !important;
+            height: 45px !important; 
+    }
+    .footer .container .block1{
+        display: flex !important;
+        flex-direction: column !important;
+        
+    }
+    .footer .container .block1 .logo{
+        margin-bottom: 20px;
+    }
+    .footer .container .block1 .phone{
+        margin-bottom: 20px !important;
+    }
+    .footer .container .block1 .ph1{
+        margin: 0 !important;
+    }
+    .footer .container .block1 .number{
+        margin-right: 35px !important;
+    }
+}
