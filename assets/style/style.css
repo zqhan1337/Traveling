@@ -777,3 +777,97 @@ body{
     color: #F87932;
     transition: .3s;
 }
+
+
+
+
+.form{
+    padding-top: 100px;
+    
+}
+.form .container{
+    display: flex;
+    flex-direction: column;
+}
+.form .container .join{
+    font-family: 'Mer';
+    font-size: 60px;
+    font-weight: 900;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+.form .container .w100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form .container .UK{
+    width: 157px;
+    height: 19px;
+    background: url(../img/Group\ 3.png);
+}
+.form .container .call{
+    font-family: 'Lat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    word-spacing: 10px;
+    text-align: center;
+    margin: 0;
+}
+.form .container label{
+    font-family: 'Mon';
+    font-weight: 700;
+    color: #222222;
+    
+}
+.form .container input{
+    border: 1px solid #F87932;
+}
+.form .container .dropdown{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.form .container .dropdown button{
+    background-color: #F87932;
+    border: none;
+}
+.form .container .marg{
+    margin-top: 20px;
+}
+.form .container .rad{
+    border-radius: 8px;
+    height: 35px;
+}
+.form .container .cen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form .container .Get{
+    margin-top: 30px;
+    font-family: 'Lat';
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    padding-left: 10px;
+    width: 180px;
+    height: 52px;
+    border: none;
+    background-color: #F87932;
+    transition: .5s;
+    border: 1px solid #F87932;
+    margin-bottom: 100px;
+}
+.form .container .Get:hover{
+    background-color: white;
+    color: #F87932;
+    transition: .3s;
+    border: 1px solid black;
+}
