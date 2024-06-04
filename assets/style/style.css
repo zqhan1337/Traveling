@@ -961,3 +961,114 @@ body{
 .footer .container .info .icon a{
     margin-left: 10px;
 }
+
+
+
+@media(max-width: 1300px){
+    .container{
+        width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bg .rombiki{
+        display: none;
+    }
+    .bg .glav .block2 .r1{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 120px !important;
+        height: 120px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(-600px,490px) !important;
+    }
+    .bg .glav .block2 .r2{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 150px !important;
+        height: 150px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(-400px,410px) !important;
+    }
+    .bg .glav .block2 .r3{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 300px !important;
+        height: 300px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(-183px,410px) !important;
+    }
+    .bg .glav .block2 .r4{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 220px !important;
+        height: 220px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(160px,420px) !important;
+    }
+    .bg .glav .block2 .r5{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 80px !important;
+        height: 80px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(365px,530px) !important;
+    }
+    .bg .glav .block2 .r6{
+        background: url(../img/Property\ 1=Variant2.png) no-repeat !important;
+        width: 100px !important;
+        height: 100px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transform: translate(535px,600px) !important;
+    }
+    .presents{
+        margin-top: 100px;
+    }
+    .presents .container{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        position: relative !important;
+    }
+    .presents .container .block2 .frst{
+        position: absolute !important;
+        transform: translate(-400px,-950px) !important;
+        width: 200px !important;
+        height: 200px !important;
+
+    }
+    .presents .container .block2 .scnd{
+        background: url(../img/photo_2024-06-04_14-47-54.jpg) no-repeat !important;
+        width: 300px !important;
+        height: 300px !important;
+        transform: translate(350px,-200px);
+    }
+    .Advantages{
+        margin-bottom: 400px;
+    }
+    .Advantages .container .rombs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Advantages .container .rombs .rombs1{
+        margin-bottom: 85px;
+    }
+
+    .blog .groupphoto{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .blog .groupphoto .block2{
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
