@@ -507,3 +507,171 @@ body{
 .Advantages{
     margin-bottom: 200px;
 }
+
+
+.blog .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog .container .Blog{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.blog .container .the{
+    font-family: 'Mon';
+    font-weight: 600;
+    font-size: 32px;
+    color: #444444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blog .container .uk{
+    width: 157px;
+    height: 19px;
+    background: url(../img/Group\ 3.png);
+    margin-bottom: 20px;
+}
+.blog .container .Photos{
+    font-family: 'Lat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.blog .container .groupphoto .ph{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+}
+.blog .container .groupphoto .ph .text{
+    font-family: 'Mer';
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.blog .container .groupphoto .ph:hover .text{
+    opacity: 1;
+    transition: .3s;
+
+}
+.blog .container .groupphoto .ph .arrow a{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+    opacity: 0;
+    transition: .5s;
+}
+.blog .container .groupphoto .ph:hover .arrow a{
+    opacity: 1;
+    transition: .3s;
+}
+.blog .container .groupphoto .block1 .ph1{
+   width: 282px;
+   height: 584px;
+   background: url(../img/Rectangle\ 79.png);
+}
+.blog .container .groupphoto .block1 .ph2{
+    width: 282px;
+    height: 282px;
+    background: url(../img/Rectangle\ 82.png);
+}
+.blog .container .groupphoto .block1 .ph3{
+    width: 282px;
+    height: 282px;
+    background: url(../img/Rectangle\ 80.png);
+}
+.blog .container .groupphoto .block1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+    
+}
+.blog .container .groupphoto .block1 .ph1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.blog .container .groupphoto .block1 .ph2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.blog .container .groupphoto .block1 .ph3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.blog .container .groupphoto{
+    display: flex;
+
+}
+.blog .container .groupphoto .block1{
+    margin-right: 10px;
+}
+.blog .container .groupphoto .block2{
+    margin-left: 10px;
+}
+.blog .container .groupphoto .block2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+}
+.blog .container .groupphoto .block2 .ph4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.blog .container .groupphoto .block2 .ph4{
+    width: 584px;
+    height: 282px;
+    background: url(../img/Rectangle\ 81.png);
+}
+.blog .container .groupphoto .block2 .ph5{
+    width: 282px;
+    height: 282px;
+    background: url(../img/Rectangle\ 83.png);
+}
+.blog .container .groupphoto .block2 .ph6{
+    width: 282px;
+    height: 282px;
+    background: url(../img/Rectangle\ 84.png);
+}
+.blog .container .GO{
+    width: 206px;
+    height: 62px;
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    border: 1px solid #222222;
+    letter-spacing: 5px;
+    padding-left: 10px;
+    background: white;
+    margin-top: 50px;
+    transition: .5s;
+}
+.blog .container .GO:hover{
+    background-color: #F87932;
+    border: 1px solid #F87932;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.blog{
+    margin-bottom: 70px;
+}
+
