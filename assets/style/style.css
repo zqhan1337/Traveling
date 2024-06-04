@@ -60,7 +60,7 @@ body{
     background: url(../img/BG.png) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: 1107px;
     position: relative;
 }
 .bg .rombiki img{
@@ -581,16 +581,21 @@ body{
    width: 282px;
    height: 584px;
    background: url(../img/Rectangle\ 79.png);
+   background-position: center;
 }
 .blog .container .groupphoto .block1 .ph2{
     width: 282px;
     height: 282px;
     background: url(../img/Rectangle\ 82.png);
+    background-position: center;
+    
 }
 .blog .container .groupphoto .block1 .ph3{
     width: 282px;
     height: 282px;
     background: url(../img/Rectangle\ 80.png);
+    background-position: center;
+    
 }
 .blog .container .groupphoto .block1{
     display: grid;
@@ -640,16 +645,20 @@ body{
     width: 584px;
     height: 282px;
     background: url(../img/Rectangle\ 81.png);
+    background-position: center;
 }
 .blog .container .groupphoto .block2 .ph5{
     width: 282px;
     height: 282px;
     background: url(../img/Rectangle\ 83.png);
+    background-position: center;
 }
 .blog .container .groupphoto .block2 .ph6{
     width: 282px;
     height: 282px;
     background: url(../img/Rectangle\ 84.png);
+    background-position: center;
+    
 }
 .blog .container .GO{
     width: 206px;
@@ -1451,7 +1460,7 @@ body{
         padding-right: 5px !important;
     }
     .bg{
-        height: 80vh !important;
+        height: 690px !important;
     }
    
     .bg .container .navigation a{
