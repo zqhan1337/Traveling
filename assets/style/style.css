@@ -1072,3 +1072,37 @@ body{
         overflow-x: hidden;
     }
 }
+
+@media(max-width:992px){
+    .container{
+        width: 766px;
+    }
+    .bg .container .navigation a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bg .container .block2 .r1{
+        transform: translate(-670px, 450px) !important;
+    }
+    .bg .glav .block2 .r2{
+        transform: translate(-515px,420px) !important;
+    }
+    .bg .glav .block2 .r3{
+        transform: translate(-290px,400px) !important;
+    }
+    .bg .glav .block2 .r4{
+        transform: translate(50px,430px) !important;
+    }
+    .bg .glav .block2 .r5{
+        transform: translate(255px,530px) !important;
+    }
+    .bg .glav .block2 .r6{
+        transform: translate(360px,530px) !important;
+    }
+    .presents .container .block2 .scnd{
+        transform: translate(250px,-220px);
+    }
+    .Advantages .container .rombs{
+        margin-top: 950px !important;
+    }
+}
